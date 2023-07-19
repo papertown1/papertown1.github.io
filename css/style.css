@@ -1074,3 +1074,22 @@ a:focus {
           transform: rotate(-45deg) translate(7px, -10px);
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+.read-more-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.read-more-link {
+  cursor: pointer;
+  color: blue;
+}
+
+.about_us {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}

@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Digitf</title>
+  <title>Paper Town</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -30,13 +30,13 @@
 </head>
 
 <body>
-  <div class="hero_area">
+  <div class="hero_area" >
     <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
+    <header class="header_section" >
+      <div class="container-fluid py-2">
         <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="" />
+          <a class="navbar-brand" href="index.html" style="object-fit:fill;">
+            <img src="images/papertown2.png" style="padding: 10px;width: 100px;" />
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -257,21 +257,24 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="detail-box">
+          <div class="detail-box ">
             <div class="heading_container">
               <h2>
                 About Us
               </h2>
-
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam
+              At Paper Town, we are passionate about sustainability and believe in creating a better world through
+              eco-friendly practices. Our platform is dedicated to offering a wide range of high-quality, innovative,
+              and stylish furniture made from sustainable cardboard materials.
             </p>
-            <a href="">
-              Read More
-            </a>
-          </div>
+            <p>
+              We strive to redefine modern living by
+              promoting sustainable solutions that not only benefit our customers but also contribute to preserving
+              our planet for future generations. <br><a class="" href="about.html">Learn More...</a>
+            </p>
+            
+          </div>          
         </div>
         <div class="col-md-6">
           <div class="img-box">
@@ -874,7 +877,30 @@
       console.log(indicators);
 
     })
+    document.addEventListener('DOMContentLoaded', function () {
+      const readMoreLink = document.querySelector('.read-more-link');
+      const readMoreContent = document.querySelector('.read-more-content');
+      const aboutUsButton = document.querySelector('.about_us')
+
+      readMoreLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        if (readMoreContent.style.maxHeight === '0px' || readMoreContent.style.maxHeight === '') {
+          readMoreContent.style.maxHeight = readMoreContent.scrollHeight + 'px';
+          aboutUsButton.style.maxHeight = aboutUsButton.scrollHeight + 'px';
+          readMoreLink.textContent = 'Read Less';
+          
+        } else {
+          readMoreContent.style.maxHeight = '0';
+          readMoreLink.textContent = 'Read More';
+          aboutUsButton.style.maxHeight = '0';
+        }
+      });
+    });
+
+
+   
   </script>
+
 
 </body>
 </body>
