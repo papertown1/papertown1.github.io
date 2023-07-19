@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   color: #0c0c0c;
@@ -612,7 +615,7 @@ a:focus {
 }
 
 .discount_section .detail-box h2 {
-  padding-left: 45px;
+  padding-left: 16px;
 }
 
 .discount_section .detail-box h2.main_heading {
