@@ -52,7 +52,7 @@ body {
   position: absolute;
   top: 50%;
   right: -5px;
-  background-color: #24d278;
+  background-color: #79b47c;
   -webkit-transform: translate(100%, -50%);
           transform: translate(100%, -50%);
 }
@@ -60,7 +60,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/bg.png);
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@ body {
   right: 0;
   width: 45%;
   height: 100%;
-  background-image: url(../images/hero-side-bg.png);
+  background-image: url(../images/bg1.png);
   background-size: cover;
 }
 
@@ -133,7 +133,7 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  color: #24d278;
+  color: #79b47c;
 }
 
 a,
@@ -218,7 +218,7 @@ a:focus {
 }
 
 .login_btn-container a {
-  color: #24d278;
+  color: #79b47c;
   text-transform: uppercase;
 }
 
@@ -280,7 +280,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #24d278;
+  color: #79b47c;
   text-transform: uppercase;
 }
 
@@ -307,7 +307,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 6px 0;
-  background-color: #24d278;
+  background-color: #79b47c;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -318,8 +318,8 @@ a:focus {
 
 .slider_section .detail-box .btn-box .btn-1:hover {
   background-color: transparent;
-  border-color: #24d278;
-  color: #24d278;
+  border-color: #79b47c;
+  color: #79b47c;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
@@ -350,7 +350,7 @@ a:focus {
 }
 
 .slider_section .img-container .img-box {
-  width: 250px;
+  width: 300px;
 }
 
 .slider_section .img-container .img-box img {
@@ -358,7 +358,7 @@ a:focus {
 }
 
 .slider_section .play_btn {
-  background-color: #24d278;
+  background-color: #79b47c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -407,7 +407,7 @@ a:focus {
   position: absolute;
   top: 50%;
   left: 50%;
-  background-color: #24d278;
+  background-color: #79b47c;
   opacity: 1;
   border-radius: 100%;
   -webkit-transform: translate(-50%, -50%);
@@ -461,7 +461,7 @@ a:focus {
   width: 15px;
   height: 15px;
   border-radius: 100%;
-  background-color: #24d278;
+  background-color: #79b47c;
   opacity: 1;
   border: none;
   background-clip: unset;
@@ -531,7 +531,7 @@ a:focus {
 
 .trending_section .tab_container .t-link-box {
   margin: 65px 0;
-  color: #24d278;
+  color: #79b47c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -548,7 +548,7 @@ a:focus {
 }
 
 .trending_section .tab_container .t-link-box hr {
-  background-color: #24d278;
+  background-color: #79b47c;
   width: 60px;
   height: 1.5px;
   border: none;
@@ -564,7 +564,7 @@ a:focus {
 }
 
 .trending_section .tab_container .t-link-box[aria-expanded="true"] .t-name {
-  color: #24d278;
+  color: #79b47c;
 }
 
 .trending_section .img_container {
@@ -621,7 +621,7 @@ a:focus {
 .discount_section .detail-box h2.main_heading {
   font-size: 3rem;
   padding: 0;
-  color: #24d278;
+  color: #79b47c;
   text-transform: uppercase;
 }
 
@@ -676,7 +676,7 @@ a:focus {
 }
 
 .brand_section .brand_container .box h6.price {
-  color: #24d278;
+  color: #79b47c;
 }
 
 .brand_section .brand_container .box .new {
@@ -697,7 +697,7 @@ a:focus {
 }
 
 .brand_section .brand_container .box:hover {
-  background-color: #24d278;
+  background-color: #79b47c;
 }
 
 .brand_section .brand_container .box:hover h6.price {
@@ -783,7 +783,7 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #24d278;
+  background-color: #79b47c;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -796,8 +796,8 @@ a:focus {
 
 .contact_section button:hover {
   background-color: transparent;
-  border-color: #24d278;
-  color: #24d278;
+  border-color: #79b47c;
+  color: #79b47c;
 }
 
 .contact_section .map_container {
@@ -854,7 +854,7 @@ a:focus {
 }
 
 .client_section .client_box .client-id .name p {
-  color: #24d278;
+  color: #79b47c;
   margin: 0;
 }
 
@@ -961,7 +961,7 @@ a:focus {
 .info_section .info_form form button {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #24d278;
+  background-color: #79b47c;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -974,8 +974,8 @@ a:focus {
 
 .info_section .info_form form button:hover {
   background-color: transparent;
-  border-color: #24d278;
-  color: #24d278;
+  border-color: #79b47c;
+  color: #79b47c;
 }
 
 .info_section .info_form .social_box {
@@ -1095,4 +1095,12 @@ a:focus {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease-out;
+}
+
+.image-flip {
+  display: inline-block;
+}
+
+.image-flip img {
+  transform: scaleX(-1);
 }
