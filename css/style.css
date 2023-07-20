@@ -673,10 +673,12 @@ a:focus {
 
 .brand_section .brand_container .box h6 {
   color: #252525;
+  
 }
 
 .brand_section .brand_container .box h6.price {
   color: #79b47c;
+  
 }
 
 .brand_section .brand_container .box .new {
@@ -1103,4 +1105,37 @@ a:focus {
 
 .image-flip img {
   transform: scaleX(-1);
+}
+
+/* card */
+
+.container_foto {
+	padding: 0;
+	overflow: hidden;
+	max-width: 350px;
+	margin: 5px;
+}
+
+
+.container_foto img {
+	width: 100%;
+	top: 0;
+	left: 0;
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	-o-transition: all 3s ease;
+	-ms-transition: all 3s ease;
+	transition: all 3s ease;
+}
+
+/*hovers*/
+
+.container_foto:hover {
+	cursor: pointer;
+}
+
+.container_foto:hover img {
+	opacity: 0.5;
+	transform: scale(1.1);
+  transform: translateY(-8px);
 }

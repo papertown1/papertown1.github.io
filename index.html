@@ -61,7 +61,7 @@
                 <a class="nav-link" href="#contact">Contact us</a>
               </li>
             </ul>
-            <div class="user_option">
+            <!-- <div class="user_option">
               <a href="">
                 <img src="images/user.png" alt="">
                 <span>
@@ -71,7 +71,7 @@
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
-            </div>
+            </div> -->
           </div>
           <div>
             <div class="custom_menu-btn ">
@@ -139,7 +139,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 img-container">
+                <div class="col-md-6 img-container ">
                   <div class="img-box">
                     <img src="images/sofa.png" alt="">
                   </div>
@@ -247,41 +247,7 @@
   </div>
 
 
-  <!-- about section -->
 
-  <section id="aboutus" class="about_section layout_padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="detail-box ">
-            <div class="heading_container">
-              <h2>
-                About Us
-              </h2>
-            </div>
-            <p>
-              At Paper Town, we are passionate about sustainability and believe in creating a better world through
-              eco-friendly practices. Our platform is dedicated to offering a wide range of high-quality, innovative,
-              and stylish furniture made from sustainable cardboard materials.
-            </p>
-            <p>
-              We strive to redefine modern living by
-              promoting sustainable solutions that not only benefit our customers but also contribute to preserving
-              our planet for future generations. <br><a class="" href="about.html">Learn More...</a>
-            </p>
-            
-          </div>          
-        </div>
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/team(1).png" style="width: 60%;" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
 
   <!-- trending section -->
 
@@ -298,7 +264,7 @@
         </div>
         <div class="row pt-4">
           <div class="col-md-6">
-            <div class="detail-box">
+            <div class="detail-box ">
               <div class="heading_container">
                 <h2>
                   Trending Categories
@@ -353,8 +319,8 @@
           <div class="col-md-6">
             <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
               <div class="img_container ">
-                <div class="box b-1">
-                  <div class="img-box">
+                <div class="box b-1 ">
+                  <div class="img-box  container_foto">
                     <img src="images/sofa.png" alt="">
                   </div>
                   <div class="img-box">
@@ -463,7 +429,7 @@
         </h2>
       </div>
       <div class="brand_container layout_padding2">
-        <div class="box">
+        <div class="box  container_foto">
           <a href="">
             <div class="new">
               <h5>
@@ -483,7 +449,7 @@
             </div>
           </a>
         </div>
-        <div class="box">
+        <div class="box  container_foto">
           <a href="">
             <div class="img-box">
               <img src="images/barstool.png" style="filter: drop-shadow();" alt="">
@@ -498,7 +464,7 @@
             </div>
           </a>
         </div>
-        <div class="box">
+        <div class="box  container_foto">
           <a href="">
             <div class="img-box">
               <img src="images/tea_poi.png" alt="">
@@ -513,7 +479,7 @@
             </div>
           </a>
         </div>
-        <div class="box">
+        <div class="box  container_foto">
           <a href="">
             <div class="img-box">
               <img src="images/table_chair.png" style="filter: drop-shadow();" alt="">
@@ -529,13 +495,48 @@
           </a>
         </div>
       </div>
-      <a href="" class="brand-btn">
+      <a href="shop.html" class="brand-btn">
         See More
       </a>
     </div>
   </section>
 
   <!-- end brand section -->
+    <!-- about section -->
+
+    <section id="aboutus" class="about_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="detail-box ">
+              <div class="heading_container">
+                <h2>
+                  About Us
+                </h2>
+              </div>
+              <p>
+                At Paper Town, we are passionate about sustainability and believe in creating a better world through
+                eco-friendly practices. Our platform is dedicated to offering a wide range of high-quality, innovative,
+                and stylish furniture made from sustainable cardboard materials.
+              </p>
+              <p>
+                We strive to redefine modern living by
+                promoting sustainable solutions that not only benefit our customers but also contribute to preserving
+                our planet for future generations. <br><a class="" href="about.html">Learn More...</a>
+              </p>
+              
+            </div>          
+          </div>
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/team(1).png" style="width: 60%;" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- end about section -->
   <!-- contact section -->
 
   <section id="contact" class="contact_section layout_padding">
@@ -550,18 +551,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <form action="">
+          <form action="https://formspree.io/f/mdorkgrl" method="post">
             <div>
-              <input type="text" placeholder="Name" />
+              <input type="text" name="name" placeholder="Name" />
             </div>
             <div>
-              <input type="email" placeholder="Email" />
+              <input type="email" name="email" placeholder="Email" />
             </div>
             <div>
-              <input type="text" placeholder="Phone" />
+              <input type="text" name="phone" placeholder="Phone" />
             </div>
             <div>
-              <input type="text" class="message-box" placeholder="Message" />
+              <input type="text" name="message" class="message-box" placeholder="Message" />
             </div>
             <div class="d-flex ">
               <button>
@@ -691,7 +692,7 @@
                 <img src="images/envelope-white.png" width="18px" alt="">
               </div>
               <p>
-                demo@gmail.com
+                papertownfl@gmail.com
               </p>
             </div>
           </div>
@@ -769,18 +770,6 @@
   </section>
 
   <!-- end info_section -->
-
-
-  <!-- footer section -->
-  <!-- <section class="container-fluid footer_section ">
-    <div class="container">
-      <p>
-        &copy; 2019 All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </section> -->
-  <!-- end  footer section -->
 
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
