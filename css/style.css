@@ -60,7 +60,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/bg.png);
+  /* background-image: url(../images/bg.png); */
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -1130,12 +1130,52 @@ a:focus {
 
 /*hovers*/
 
-.container_foto:hover {
-	cursor: pointer;
-}
+
 
 .container_foto:hover img {
 	opacity: 0.5;
 	transform: scale(1.1);
   transform: translateY(-8px);
 }
+
+/* Download Button Hover */
+.box {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-content {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  padding: 7px;
+  opacity: 0; /* Hide the truck logo initially */
+  transition: opacity 1s ease-in-out;
+  background-color: #609460;
+  border-radius: 5px;
+}
+
+.hover-content .text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-small;
+  font-weight: bold;
+  color: white;
+  white-space: nowrap;
+  width: 0; /* Start with 0 width to hide the text box */
+  overflow: hidden;
+  transition: width 0.5s ease-in-out;
+}
+
+.box:hover .hover-content {
+  opacity: 1; /* Show the truck logo on hover */
+}
+
+.hover-content:hover .text-box {
+  width: 100px; /* Show the text box on hover by increasing its width */
+}
+
+
